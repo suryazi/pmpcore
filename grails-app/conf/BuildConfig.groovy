@@ -1,7 +1,9 @@
+
 grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 
+grails.server.port.http = 8082
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -28,9 +30,12 @@ grails.project.dependency.resolution = {
 
     plugins {
         build(":tomcat:$grailsVersion",
-              ":release:2.0.3",
-              ":rest-client-builder:1.0.2") {
+              ":release:2.2.0",
+              ":rest-client-builder:1.0.3") {
             export = false
         }
+        runtime ":hibernate:$grailsVersion"
+        compile ":build-test-data:2.0.3"
+        build ":auto-test:1.0.1"
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="OwnerTests" package="com.alworoud" tests="1" time="4.214" timestamp="2012-12-30T14:41:29">
+      <properties />
+
+      <testcase classname="com.alworoud.OwnerTests" name="testOwner" time="2.931" />
+
+      <system-out><![CDATA[--Output from testOwner--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testOwner--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="falblawi" id="1" name="PropertyTests" package="com.alworoud" tests="1" time="1.87" timestamp="2012-12-30T14:41:34">
+      <properties />
+
+      <testcase classname="com.alworoud.PropertyTests" name="testProperty" time="1.591" />
+
+      <system-out><![CDATA[--Output from testProperty--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testProperty--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="falblawi" id="2" name="UnitTests" package="com.alworoud" tests="1" time="0.411" timestamp="2012-12-30T14:41:37">
+      <properties />
+
+      <testcase classname="com.alworoud.UnitTests" name="testUnit" time="0.41" />
+
+      <system-out><![CDATA[--Output from testUnit--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testUnit--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
