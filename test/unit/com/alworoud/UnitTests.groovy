@@ -15,8 +15,8 @@ import grails.buildtestdata.mixin.Build
 class UnitTests {
     void testUnit() {
         Unit unit= Unit.build(prop:Property.build())
-        assertNotNull unit.uType
+        assertNotNull unit.unitType
         assertNotNull unit.prop
-        assertNotNull unit.prop.pType
+        assertNotNull unit.prop.propType
     }
 }
