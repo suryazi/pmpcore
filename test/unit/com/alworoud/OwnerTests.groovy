@@ -14,6 +14,7 @@ import grails.buildtestdata.mixin.Build
 @TestFor(Owner)
 @Build(Owner)
 class OwnerTests {
+    
     void testOwner() {
         Owner owner=Owner.build()
         assertNotNull owner.name

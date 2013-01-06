@@ -13,6 +13,7 @@ import grails.buildtestdata.mixin.Build
 @TestFor(Property)
 @Build([Property,Owner])
 class PropertyTests {
+    
     void testProperty() {
         Property property=Property.build(owners:Owner.build())
         assertNotNull property
