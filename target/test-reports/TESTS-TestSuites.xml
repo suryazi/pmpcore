@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="UnitTests" package="com.alworoud" tests="1" time="0.923" timestamp="2013-01-06T13:42:49">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="PropertyTests" package="com.alworoud" tests="1" time="4.382" timestamp="2013-01-06T14:10:00">
       <properties />
 
-      <testcase classname="com.alworoud.UnitTests" name="testUnit" time="0.921" />
+      <testcase classname="com.alworoud.PropertyTests" name="testProperty" time="4.174" />
+
+      <system-out><![CDATA[--Output from testProperty--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testProperty--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="falblawi" id="1" name="UnitTests" package="com.alworoud" tests="1" time="0.632" timestamp="2013-01-06T14:10:05">
+      <properties />
+
+      <testcase classname="com.alworoud.UnitTests" name="testUnit" time="0.629" />
 
       <system-out><![CDATA[--Output from testUnit--
 ]]></system-out>
