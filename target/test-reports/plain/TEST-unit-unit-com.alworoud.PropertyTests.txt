@@ -1,5 +1,5 @@
 Testsuite: com.alworoud.PropertyTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4.382 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 5.253 sec
 ------------- Standard Output ---------------
 --Output from testProperty--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4.382 sec
 --Output from testProperty--
 ------------- ---------------- ---------------
 
-Testcase: testProperty took 4.174 sec
+Testcase: testProperty took 4.464 sec

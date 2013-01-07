@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="falblawi" name="com.alworoud.UnitTests" tests="1" time="0.632" timestamp="2013-01-06T14:10:05">
+<testsuite errors="0" failures="0" hostname="falblawi" name="com.alworoud.UnitTests" tests="1" time="0.477" timestamp="2013-01-07T07:16:03">
   <properties />
-  <testcase classname="com.alworoud.UnitTests" name="testUnit" time="0.629" />
+  <testcase classname="com.alworoud.UnitTests" name="testUnit" time="0.474" />
   <system-out><![CDATA[--Output from testUnit--
 ]]></system-out>
   <system-err><![CDATA[--Output from testUnit--

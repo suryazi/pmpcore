@@ -1,5 +1,5 @@
 Testsuite: com.alworoud.UnitTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.632 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.477 sec
 ------------- Standard Output ---------------
 --Output from testUnit--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.632 sec
 --Output from testUnit--
 ------------- ---------------- ---------------
 
-Testcase: testUnit took 0.629 sec
+Testcase: testUnit took 0.474 sec
