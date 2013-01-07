@@ -3,8 +3,8 @@ package com.alworoud
 class Property {
     String propType
     String street
+    String area
     String city
-    Double area
     String status
     String remarks
     Date dateCreated
@@ -12,8 +12,8 @@ class Property {
     static constraints = {
         propType(blank:false, inList:(['Building','Compound','Land']))
         street(nullable:true)
-        city(nullable:true)
         area(nullable:true)
+        city(nullable:true)
         status(blank:false,inList:(['Vacant','Rent','Lease','Maintenance','Sale','Sold']))
         remarks(nullable:true)
     }

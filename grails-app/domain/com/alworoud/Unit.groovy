@@ -3,7 +3,6 @@ package com.alworoud
 class Unit {
     String unitType
     String desc
-    Double area
     String status
     String remarks
     Date dateCreated
@@ -11,7 +10,6 @@ class Unit {
     static constraints = {
         unitType(blank:false,inList:(['Villa','Apartment','Shop','Space','Land','Building']))
         desc(nullable: true)
-        area(nullable: true)
         status(blank:false,inList:(['Vacant','Rent','Lease','Maintenance','Sale','Sold']))
         remarks(nullable:true)
     }
